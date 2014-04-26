@@ -1,3 +1,6 @@
 Fonctionnalités : 
-	- afficher la météo par ville
-	- afficher la météo par départements
+    - afficher la météo global France
+    - afficher la météo par départements
+	- afficher la météo par ville (Code postal - Nom de ville)
+    
+    - afficher la météo selon un pays
