@@ -1,0 +1,4 @@
+bk_meteo:
+    resource: "@BkMeteoBundle/Resources/config/routing.yml"
+    prefix:   /
+
