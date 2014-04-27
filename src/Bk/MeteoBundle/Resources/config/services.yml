@@ -1,0 +1,7 @@
+parameters:
+#    bk_meteo.example.class: Bk\MeteoBundle\Example
+
+services:
+#    bk_meteo.example:
+#        class: %bk_meteo.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

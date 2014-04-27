@@ -1,0 +1,3 @@
+bk_meteo_homepage:
+    pattern:  /
+    defaults: { _controller: BkMeteoBundle:Meteo:index }
