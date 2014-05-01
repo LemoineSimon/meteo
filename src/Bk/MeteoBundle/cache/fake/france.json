@@ -1,0 +1,120 @@
+{
+    "cnt": 3,
+    "list": [{
+            "coord": {
+                "lon": 2.37,
+                "lat": 51.05
+            },
+            "sys": {
+                "message": 0.0034,
+                "country": "FR",
+                "sunrise": 1398918152,
+                "sunset": 1398971556
+            },
+            "weather": [{
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03n"
+                }],
+            "main": {
+                "temp": 11.25,
+                "pressure": 1012,
+                "humidity": 81,
+                "temp_min": 10,
+                "temp_max": 12
+            },
+            "wind": {
+                "speed": 4.6,
+                "deg": 10
+            },
+            "rain": {
+                "3h": 0.5
+            },
+            "clouds": {
+                "all": 40
+            },
+            "dt": 1398977400,
+            "id": 3020686,
+            "name": "Dunkerque"
+        }, {
+            "coord": {
+                "lon": 3.06,
+                "lat": 50.63
+            },
+            "sys": {
+                "message": 0.0231,
+                "country": "FR",
+                "sunrise": 1398918063,
+                "sunset": 1398971313
+            },
+            "weather": [{
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10n"
+                }],
+            "main": {
+                "temp": 11.94,
+                "humidity": 92,
+                "pressure": 1010,
+                "temp_min": 11.11,
+                "temp_max": 13
+            },
+            "wind": {
+                "speed": 2.98,
+                "deg": 299.006
+            },
+            "rain": {
+                "1h": 0.51
+            },
+            "clouds": {
+                "all": 92
+            },
+            "dt": 1398979311,
+            "id": 2998324,
+            "name": "Lille"
+        }, {
+            "coord": {
+                "lon": 2.35,
+                "lat": 48.85
+            },
+            "sys": {
+                "message": 0.0378,
+                "country": "FR",
+                "sunrise": 1398918544,
+                "sunset": 1398971173
+            },
+            "weather": [{
+                    "id": 501,
+                    "main": "Rain",
+                    "description": "moderate rain",
+                    "icon": "10n"
+                }, {
+                    "id": 701,
+                    "main": "Mist",
+                    "description": "mist",
+                    "icon": "50n"
+                }],
+            "main": {
+                "temp": 10.97,
+                "humidity": 90,
+                "pressure": 1009.1,
+                "temp_min": 9.44,
+                "temp_max": 12.22
+            },
+            "wind": {
+                "speed": 3.58,
+                "deg": 291.006
+            },
+            "rain": {
+                "1h": 0.25
+            },
+            "clouds": {
+                "all": 68
+            },
+            "dt": 1398979151,
+            "id": 2988507,
+            "name": "Paris"
+        }]
+}
