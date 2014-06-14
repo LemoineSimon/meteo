@@ -1,5 +1,8 @@
 {% extends "BkMeteoBundle::layout.html.twig" %}
 
+{% block title %}Page d'accueil{% endblock %}
+
+
 {% block subbody %}
-{{ dump(cities) }} !
+    Villes disponibles : {{ dump(cities) }}
 {% endblock %}
