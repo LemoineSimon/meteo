@@ -67,13 +67,3 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
-
-#
-parameters:
-    OpenWeatherMap:
-        country:
-            france: [3020686,2998324,2988507]
-        city:
-            dunkerque: 3020686
-            lille: 2998324
-            paris: 2988507

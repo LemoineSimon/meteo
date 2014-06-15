@@ -4,5 +4,7 @@
 
 
 {% block subbody %}
-    Villes disponibles : {{ dump(cities) }}
+    <p>Villes disponibles : </p>
+    <p><a href="{{ path('bk_meteo_city',{'cityName':'Paris,fr'}) }}">Paris</a></p>
+    {{ dump(cities) }}
 {% endblock %}

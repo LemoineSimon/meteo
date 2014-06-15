@@ -1,0 +1,10 @@
+{% extends "BkMeteoBundle::layout.html.twig" %}
+
+{% block title %}Une ville{% endblock %}
+
+{% block subbody %}
+    <p>Nom de la ville : {{ city.name }}</p>
+    <p>Longitude : {{ city.longitude }}</p>
+    <p>lattitude : {{ city.latitude }}</p>
+    <p>Temps : {{ dump(city.weathers) }}</p>
+{% endblock %}
