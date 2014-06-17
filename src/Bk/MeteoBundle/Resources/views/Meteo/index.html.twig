@@ -1,5 +1,10 @@
 {% extends "BkMeteoBundle::layout.html.twig" %}
 
+{% block title %}Page d'accueil{% endblock %}
+
+
 {% block subbody %}
-{{ dump(cities) }} !
+    <p>Villes disponibles : </p>
+    <p><a href="{{ path('bk_meteo_city',{'cityName':'Paris,fr'}) }}">Paris</a></p>
+    {{ dump(cities) }}
 {% endblock %}
